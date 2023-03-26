@@ -40,3 +40,5 @@ This project was made possible thanks to the following resources:
 
 - OpenWeatherMap API (https://openweathermap.org/)
 - Tkinter (https://docs.python.org/3/library/tkinter.html)
+
+Please note that this project uses the free version of OpenWeatherMap API with a limited number of requests per day. If you would like to use this code, you can change the API key with your own API key later.
