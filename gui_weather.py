@@ -27,7 +27,7 @@ root.geometry(f"400x300+{x_pos}+{y_pos}")
 # Create a button to retrieve the weather data
 def get_weather():
     city = city_entry.get()
-    api_key = "966bd25bdb896fd432cc0831776a9e8b"
+    api_key = 'Your API Key HERE'
     weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=imperial"
     response = requests.get(weather_url)
     weather_data = json.loads(response.text)

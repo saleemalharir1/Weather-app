@@ -16,7 +16,7 @@ def display_weather_data(weather_data):
     print(f'Wind speed: {weather_data["wind"]["speed"]} mph')
     print(f'Weather description: {weather_data["weather"][0]["description"]}')
     
-api_key = '966bd25bdb896fd432cc0831776a9e8b'
+api_key = 'Your API Key HERE'
 location = input('Enter location: ')
 weather_data = get_weather_data(location, api_key)
 display_weather_data(weather_data)
