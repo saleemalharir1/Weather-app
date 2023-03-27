@@ -27,7 +27,7 @@ The `Weather_API.ipynb` notebook contains the code used to retrieve weather data
 
 ## Credits
 
-This program was created by [Your Name].
+This program was created by Saleem Alharir.
 
 The OpenWeatherMap API was used to retrieve weather data. 
 
